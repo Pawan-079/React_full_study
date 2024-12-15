@@ -114,6 +114,7 @@ const Welcome = (props) => {
   return <h1>Hello, {props.name}!</h1>;
 };
 
+
 const element = <Welcome name="Pawan" />;
 ```
 In this case, the `name` prop is passed to the `Welcome` component, which displays "Hello, Pawan!"
